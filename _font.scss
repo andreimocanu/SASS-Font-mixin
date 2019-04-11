@@ -1,0 +1,22 @@
+///
+/// SASS Font mixin
+///
+/// @author andreimocanu
+///
+/// @param {String} $size
+/// @param {Number} $line
+/// @param {Number} $weight
+/// @param {String} $color
+///
+/// @example
+///   .selector {
+///     @include font(16rem, 1.2, 700, #000);
+///   }
+///
+
+@mixin font($size, $line: null, $weight: null, $color: null) {
+    font-size: $size;
+    line-height: $line;
+    font-weight: $weight;
+    color: $color;
+}
