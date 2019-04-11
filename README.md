@@ -1,7 +1,9 @@
-# SASS-Font-mixin
+# SASS Font mixin
 An easy to use mixin for generating font css.
 
 All you have to do is include the following:
+
+<h3>Usage</h3>
 
 <pre>
 .selector {
