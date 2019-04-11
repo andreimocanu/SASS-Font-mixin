@@ -4,7 +4,7 @@ An easy to use mixin for generating font css.
 All you have to do is include the following:
 
 <pre>
-.my-class {
+.selector {
     @include font(12rem, 1.2, 700, #000);
 }
 </pre>
@@ -12,7 +12,7 @@ All you have to do is include the following:
 <h3>Result</h3>
 
 <pre>
-.my-class {
+.selector {
     font-size: 12rem;
     line-height: 1.2;
     font-weight: 700;
